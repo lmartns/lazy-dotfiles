@@ -18,8 +18,9 @@ require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
     --
+    { "ficcdaf/ashen.nvim" },
     { "LazyVim/LazyVim", import = "lazyvim.plugins", opts = {
-      colorscheme = "kanagawa-dragon",
+      colorscheme = "ashen",
     } },
     -- import/override with your plugins
     { import = "lazyvim.plugins.extras.linting.eslint" },

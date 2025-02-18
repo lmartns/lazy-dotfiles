@@ -1,5 +1,5 @@
 return {
-  "rebelot/kanagawa.nvim",
+  "ashen-org/ashen.nvim",
   lazy = false,
   priority = 1000,
   opts = function()
